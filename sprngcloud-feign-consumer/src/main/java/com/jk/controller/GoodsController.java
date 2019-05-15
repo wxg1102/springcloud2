@@ -47,6 +47,7 @@ public class GoodsController {
         System.out.println("修改提交第一次");
         System.out.println("修改提交第二次");
          System.out.println("github修改提交第三次");
+        System.out.println("github修改提交第四次");
         return goodsService.queryGoodsList();
     }
 }
