@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * @program: springcloud2
  * @Date: 2019/5/13 17:51
- * @Author: 任豪杰
+ * @Author: 卫雪刚
  * @Description:
  */
 @Controller
@@ -44,6 +44,7 @@ public class GoodsController {
     @GetMapping("queryGoodsList")
     @ResponseBody
     public List<GoodsBean> queryGoodsList(){
+        System.out.println("修改提交第一次");
         return goodsService.queryGoodsList();
     }
 }
