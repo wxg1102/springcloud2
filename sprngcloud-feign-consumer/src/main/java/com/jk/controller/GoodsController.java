@@ -45,6 +45,7 @@ public class GoodsController {
     @ResponseBody
     public List<GoodsBean> queryGoodsList(){
         System.out.println("修改提交第一次");
+        System.out.println("修改提交第二次");
         return goodsService.queryGoodsList();
     }
 }
